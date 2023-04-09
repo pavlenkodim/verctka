@@ -1,6 +1,14 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 0px;
 }
 .navbar {
     width: 100%;
@@ -48,7 +56,7 @@ body {
 .navbar-phone {
     margin-left: 30px;
     color: #245BF3;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -57,12 +65,324 @@ body {
 .mainblock {
     width: 100%;
     height: 700px;
-    background-image: url("/FreeLans/project4_site_seone1/images/bg-block.png");
-    display: inline-block;
+    background-image: url("/Verstka/FreeLans/project4_site_seone1/images/bg-block.png");
+    display: flex;
+    justify-content: space-between;
 }
 .mainblock-conteiner {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffd3;
+}
+.mainblock-info {
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7A7A7C;
+}
+.mainblock-info h1{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+.mainblock-info h1 a{
+    color: #245BF3;
+    text-decoration: none;
+}
+.mainblock-btns {
+    margin-top: 20px;
+}
+.mainblock-btns-coop {
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-right: 30px;
+    background-color: #245BF3;
+}
+.mainblock-btns-callme {
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid #245BF3;;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #245BF3;
+    margin-right: 30px;
+    background-color: #ffffff00;
 }
 .mainblock-forma {
     width: 50%;
+    background-color: #245BF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblock-forma form h5 {
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.mainblock-forma form h6 {
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: #FFFFFF80;
+    margin: 5px 0px;
+}
+.input-email {
+    width: 500px;
+    padding: 10px 25px;
+    border: 0px;
+    border-radius: 15px;
+}
+.input-tel {
+    width: 500px;
+    padding: 10px 25px;
+    border: 0px;
+    border-radius: 15px;
+}
+.input-text {
+    width: 500px;
+    height: 200px;
+    padding: 10px 25px;
+    border: 0px;
+    border-radius: 15px;
+
+}
+.input-btn {
+    width: 100%;
+    height: 50px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    margin-top: 25px;
+    background-color: #245BF3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    font-style: normal;
+}
+.blocksite {
+    margin: 100px;
+}
+.blocklink {
+    margin: 0px;
+    font-weight: 500;
+    text-align: left;
+    color: #245BF3;
+}
+.blocklink a{
+    color: #245BF3;
+    text-decoration: none;
+}
+.blocksite-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    align-items: center;
+    color: #00000080;
+    margin-bottom: 50px;
+}
+.blocksite-header h1 {
+    margin: 0px;
+    font-size: 48px;
+    font-weight: 500;
+    color: #000000;
+}
+.blocksite-header h1 a{
+    color: #245BF3;
+    text-decoration: none;
+}
+.mainservice-bottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+.service {
+    display: flex;
+    justify-content: space-between;
+    background: #F3F3F7;
+    border-radius: 25px;
+    width: 600px;
+    height: fit-content;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 45px 40px;
+    font-weight: 400;
+    color: #00000080;
+}
+.service-content {
+    display: flex;
+}
+.service h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 0px;
+}
+.service-number {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #00000080;
+    margin-right: 40px;
+}
+.advance {
+    margin-right: 25px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 400px;
+    height: fit-content;
+    font-weight: 400;
+    color: #00000080;
+}
+.advance-icon {
+    margin-right: 25px;
+}
+.mainadvan-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.maincases {
+    width: 100%;
+    height: 1100px;
+    background-color: #245BF3;
+}
+.blocklink-forblue {
+    margin: 0px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+}
+.blocklink-forblue a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.blocksite-header-forbule {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    align-items: center;
+    color: #ffffff80;
+    margin-bottom: 50px;
+}
+.blocksite-header-forbule h1 {
+    margin: 0px;
+    font-size: 48px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.blocksite-header-forbule h1 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.forblue {
+    padding-top: 100px;
+}
+.sertificate-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sertificate-content img {
+    margin: 7px;
+    width: 250px;
+    height: 250px;
+}
+.sertificate-content img:hover {
+    width: 445px;
+    height: 515px;
+}
+.mainfeedbacks {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+.feedback-left {
+    width: 50%;
+    height: 500px;
+    text-align: right;
+    background-image: url(/Verstka/FreeLans/project4_site_seone1/images/women.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    padding-right: 100px;
+}
+.feedback-right {
+    width: 50%;
+    padding-top: 235px;
+
+}
+.feedback-header {
+    display: block;
+}
+.feedback-header div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.feedback-header h1 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 48px;
+}
+.feedback-comment {
+    font-size: 20px;
+}
+.feedback-user {
+    padding-top: 30px;
+    font-weight: 400;
+    display: flex;
+    align-content: start;
+}
+.feedback-user div{
+    margin: 0px;
+}
+.user-photo {
+    padding-right: 20px;
+}
+.feedback-user-info {
+    width: 200px;
+    padding: 0px 15px;
+
+}
+.feedback-user h3 {
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #000000;
+}
+.feedback-user h5 {
+    margin: 0px;
+}
+.user-rating {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.feedback-bottom {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.feedback-bottom-camp {
+    width: 230px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.user-rating-bottom {
+    padding-top: 3px;
+    padding-bottom: 7px;
 }
