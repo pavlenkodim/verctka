@@ -1,3 +1,4 @@
+/* Основыне стили для всей странички */
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -10,6 +11,8 @@ h2{
     color: #000000;
     margin-top: 0px;
 }
+
+/* Стили меню */
 .navbar {
     width: 100%;
     height: 100px;
@@ -62,6 +65,9 @@ h2{
     font-size: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+
+/* Главный блок */
 .mainblock {
     width: 100%;
     height: 700px;
@@ -118,6 +124,9 @@ h2{
     margin-right: 30px;
     background-color: #ffffff00;
 }
+
+
+/* Форма главного блока */
 .mainblock-forma {
     width: 50%;
     background-color: #245BF3;
@@ -180,9 +189,13 @@ h2{
     font-weight: 500;
     font-style: normal;
 }
+
+/* универсайлный стиль для блоков */
 .blocksite {
     padding: 7%;
 }
+
+/* Шапка блоков */
 .blocklink {
     margin: 0px;
     font-weight: 500;
@@ -211,6 +224,40 @@ h2{
     color: #245BF3;
     text-decoration: none;
 }
+
+/* стили шапочки для синих блоков */
+.blocklink-forblue {
+    margin: 0px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+}
+.blocklink-forblue a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.blocksite-header-forbule {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    align-items: center;
+    color: #ffffff80;
+    margin-bottom: 50px;
+}
+.blocksite-header-forbule h1 {
+    margin: 0px;
+    font-size: 48px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.blocksite-header-forbule h1 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+/* Блок услуги */
 .mainservice-bottom {
     display: flex;
     flex-wrap: wrap;
@@ -245,6 +292,8 @@ h2{
     color: #00000080;
     margin-right: 40px;
 }
+
+/* Блок вышодно работать */
 .advance {
     margin-right: 25px;
     margin-bottom: 50px;
@@ -263,7 +312,7 @@ h2{
     justify-content: space-between;
 }
 
-
+/* Блок кейсы */
 .maincases {
     height: 860px;
     background-color: #245BF3;
@@ -301,6 +350,8 @@ h2{
     margin-top: 50px;
     color: #00000080;
 }
+
+/* Стили слайдера */
 .slidebar-for-cases {
     justify-content: flex-end;
     margin-top: 60px;
@@ -342,39 +393,7 @@ h2{
 }
 
 
-
-
-.blocklink-forblue {
-    margin: 0px;
-    font-weight: 500;
-    text-align: left;
-    color: #ffffff;
-}
-.blocklink-forblue a{
-    color: #ffffff;
-    text-decoration: none;
-}
-.blocksite-header-forbule {
-    display: flex;
-    justify-content: space-between;
-    font-weight: 400;
-    align-items: center;
-    color: #ffffff80;
-    margin-bottom: 50px;
-}
-.blocksite-header-forbule h1 {
-    margin: 0px;
-    font-size: 48px;
-    font-weight: 500;
-    color: #ffffff;
-}
-.blocksite-header-forbule h1 a{
-    color: #ffffff;
-    text-decoration: none;
-}
-
-
-
+/* Блок сертификаты */
 .sertificate-block {
     display: flex;
     align-items: center;
@@ -401,6 +420,9 @@ h2{
     margin: 10px;
     border-radius: 25px;
 }
+
+
+/* блок отзывы */
 .mainfeedbacks {
     display: flex;
     justify-content: space-between;
@@ -483,6 +505,9 @@ h2{
     padding-top: 3px;
     padding-bottom: 7px;
 }
+
+
+/* блок наша команда */
 .mainTeam {
     background-color: #F3F3F7
 }
@@ -531,6 +556,8 @@ h2{
     align-items: center;
 }
 
+
+/* Стили кнопок слайдера */
 .prev, .next {
     padding: 15px;
     padding-bottom: 12px;
@@ -575,7 +602,6 @@ h2{
 
 .main-article {
     width: 70%;
-/* Задаем ширину главного блока */
 }
 
 .other-articles {
@@ -583,14 +609,12 @@ h2{
     flex-direction: column;
     justify-content: space-between;
     width: 30%;
-    /* Задаем ширину блока с другими блоками */
 }
 
 .gallery-article {
     width: 90%;
     height: 285px;
     margin-bottom: 20px;
-    /* Задаем ширину, высоту и отступы для блоков галереи */
 }
 .article {
     margin: 15px;
@@ -715,4 +739,263 @@ h2{
     padding: 25px;
     border: 1px solid #000000;
     border-radius: 25px;
+}
+
+
+/* Блок Что вы получите */
+.main-whatGet {
+    background-color: #245BF3;
+}
+
+.whatGet-conteqner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 24px;
+}
+
+.whatGet-conteqner img {
+    width: 50%;
+    border-radius: 25px;
+}
+
+.whatGet-text {
+    width: 45%;
+    margin: 30px;
+}
+
+
+/* Блок примеры работ */
+.howWork-conteiner {
+    display: flex;
+    justify-content: center;
+}
+.howWork-exemple {
+    width: 25%;
+    background-color: #245BF3;
+    color: #FFFFFF80;
+    border-radius: 25px;
+    margin: 10px;
+}
+.howWork-exemple h3 {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0px;
+    padding: 25px;
+}
+.howWork-exemple img {
+    width: 100%;
+}
+.howWork-text {
+    padding: 25px;
+}
+
+/* Блок FAQ */
+.question {
+    margin: 30px;
+}
+.question-title {
+    display: flex;
+    justify-content: space-between;
+}
+.question-title h3 {
+    font-size: 20px;
+}
+.question-title a {
+    font-size: 62px;
+    text-decoration: none;
+    color: #245BF3;
+}
+.question-answer {
+    color: #00000066;
+}
+.answer-activ {
+    display: block;
+}
+.answer-none {
+    display: none;
+}
+
+
+/* Блок выберите услугу */
+.getServise-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.getServise-menu ul li {
+    list-style: none;
+    margin: 10px;
+}
+.serviceMenu-btn {
+    padding: 12px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    background-color: #ffffff;
+}
+
+.servise-active {
+    background-color: #245BF3;
+    color: #ffffff;
+}
+
+/* Тарифы услуг и шкалы */
+.getServise-tarifs {
+    display: flex;
+    margin: 35px 0px;
+}
+.tarif {
+    width: 50%;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 35px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+.tarif-clouse {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.option-clouse {
+    width: 100%;
+}
+.option-active {
+    display: block;
+}
+.option-none {
+    display: none;
+}
+.tarif h5 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.tarif-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 36px;
+}
+.tarif-header h3 {
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0px;
+}
+.tarif-exit {
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.tarif-add {
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.tarif-scale {
+    display: flex;
+    flex-wrap: nowrap;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.01), 0px 2px 1px rgba(0, 0, 0, 0.05), 0px 1px 1px rgba(0, 0, 0, 0.09), 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+.scale-conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+.scale {
+    width: 48px;
+    height: 24px;
+    border-radius: 8px;
+    margin: 0px 5px;
+}
+.scale-active {
+    background: #245BF3;
+}
+.scale-plus {
+    width: 44px;
+    height: 44px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.01), 0px 2px 1px rgba(0, 0, 0, 0.05), 0px 1px 1px rgba(0, 0, 0, 0.09), 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-left: 15px;
+    color: #245BF3;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.dopFuntion {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    align-content: space-between;
+}
+.dopFuntion-check {
+    margin: 3px;
+    vertical-align: middle;
+}
+.checkbox-text {
+    margin-left: 35px;
+}
+
+/* Кастомный чекбокс */
+/* Скрываем оригинальный checkbox */
+input[type=checkbox] {
+    display: none;
+}
+
+/* Создаем кастомный checkbox */
+label.checkbox {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    padding-left: 25px;
+}
+
+/* Создаем кастомный checkbox перед границей */
+label.checkbox::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 2px solid #245BF3; /* Граница синего цвета */
+    border-radius: 4px;
+    background-color: transparent; /* Прозрачный фон */
+}
+
+/* Создаем галочку в кастомном checkbox при состоянии checked */
+label.checkbox input[type=checkbox]:checked + span::before {
+    content: url(/Verstka/FreeLans/project4_site_seone1/images/Vector\ 5.png); /* Юникод символ галочки */
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: white; /* Белый цвет для галочки */
+}
+
+/* Изменяем цвет фона в кастомном checkbox при состоянии checked */
+label.checkbox input[type=checkbox]:checked + span::before {
+    background-color: #245BF3;
+    width: 18px;
+    height: 18px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-top: 2px;
+    padding-right: 0px;
+    border-radius: 4px;
 }
