@@ -14,26 +14,25 @@ h2{
 
 /* Стили меню */
 .navbar {
-    width: 100%;
-    height: 100px;
+    /* height: 100px; */
+    margin: 20px 7%;
 }
+
 .navbar .navbar-conteiner{
     height: inherit;
-    margin-left: 100px;
-    margin-right: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .navbar-menu {
+    display: flex;
     list-style-type: none;
     padding-left: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 .navbar-menu li {
-    display: inline-block;
-    padding: 20px;
+    margin: 0px 20px;
 }
 .navbar-menu li a {
     display: inline-block;
@@ -1178,3 +1177,275 @@ label.checkbox input[type=checkbox]:checked + span::before {
 .blog-post-mini-sidebar h6 {
     margin: 25px 0px 5px 0px;
 }
+
+
+/* Адаптивные стили */
+
+@media (max-width:1330px){
+    .navbar {
+        margin: 20px 2.9%;
+    }
+    .navbar-menu li {
+        margin: 0px 10px;
+    }
+    .navbar-callback {
+        margin-left: 20px;
+        padding: 15px 20px;
+    }
+    .navbar-phone {
+        margin-left: 20px;
+    }
+    .navbar-wrap img{
+        padding-left: 5px;
+    }
+    .menu-support {
+        display: none;
+    }
+}
+
+@media (max-width:1180px){
+    .navbar {
+        margin: 20px 2.9%;
+    }
+    .navbar-menu li {
+        margin: 0px 5px;
+    }
+    .navbar-callback {
+        margin-left: 10px;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .navbar-phone {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .navbar-wrap img{
+        padding-left: 5px;
+    }
+    .menu-support {
+        display: none;
+    }
+    .menu-serm {
+        display: none;
+    }
+    .navbar-brend {
+        width: 80px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .navbar-callback {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 819px) {
+    .navbar-callback {
+        display: none;
+    }
+    .menu-more {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Стили для мобильных устройств */
+    body {
+        font-size: 15px;
+    }
+    .navbar-menu {
+      display: none; /* Скрыть меню */
+    }
+    .navbar-wrap {
+      margin-left: auto; /* Переместить кнопки в правый угол */
+    }
+    .navbar-wrap img {
+      margin-right: 10px; /* Добавить небольшой отступ между кнопками */
+    }
+    .link-whatsApp {
+      display: none;
+    }
+    .link-telegram {
+        display: none;
+    }
+    .navbar-brend {
+        width: 60px;
+        height: 30px;
+    }
+    .burger-menu {
+        margin: 0px 25px 0px 0px;
+    }
+    .mainblock {
+        height: 460px;
+    }
+    .mainblock-forma {
+        display: none;
+    }
+    .mainblock-conteiner {
+        width: 100%;
+    }
+    .mainblock-info {
+        margin: 0px 25px;
+    }
+    .mainblock-info h1 {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 47px;
+        letter-spacing: 0em;
+        margin: 10px 0px;
+    }
+    .mainblock-btns {
+        display: flex;
+        justify-content: space-between;
+    }
+    .mainblock-btns-coop {
+        padding: 15px;
+        margin: 10px 0px;
+    }
+    .mainblock-btns-callme {
+        padding: 15px;
+        margin: 10px 0px;
+    }
+    .blocksite-header-dop {
+        display: none;
+    }
+    .blocksite-header-forbule h1 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 48px;
+    }
+    .blocksite-header h1 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 48px;
+    }
+    .case-img-two {
+        display: none;
+    }
+    .case-img-one {
+        border-radius: 25px;
+        position: absolute;
+        width: 340px;
+        height: 350px;
+        left: 0px;
+        top: 0px;
+        display: none;
+    }
+    .cases-info {
+        width: 100%;
+        padding: 0px;
+        margin-top: 410px;
+        background-color: #245BF3;
+        color: #FFFFFF80;
+    }
+    .cases-conteiner-block {
+        margin-left: 0px;
+    }
+    .case-img-one {
+        position: absolute;
+        width: 340px;
+        height: 350px;
+        left: 25px;
+        top: 730px;
+    }
+    .cases-conteiner {
+        margin-top: 50px;
+    }
+    .case-persone h2 {
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23px;
+    }
+    .cases-info img{
+        width: 30px;
+        height: 30px;
+        margin-right: 8px;
+    }
+    .case-link {
+        justify-content: normal;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        color: #FFFFFF;
+        margin-top: 20px;
+    }
+    .case-link a {
+        color: #FFFFFF;
+    }
+    .slidebar-for-cases {
+        margin-top: -320px;
+        justify-content: center;
+    }
+    .prev, .next {
+        display: none;
+    }
+    .dot {
+        padding: 0px;
+        margin: 0px;
+        width: 4px;
+        height: 4px;
+        background-color: #245BF380;
+        border: none;
+    }
+    .slidebar-dots {
+        padding: 0px 10px;
+        border-radius: 15px;
+        background-color: #ffffff;
+        height: 24px;
+    }
+    .active-dot {
+        width: 18px;
+        height: 4px;
+        background-color: #245BF3;
+        border-radius: 2px;
+    }
+    .advance-icon {
+        width: 30px;
+        height: 30px;
+    }
+    .advane-content h2 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23px;
+    }
+    .advance {
+        margin-bottom: 25px;
+    }
+    .advance-none {
+        display: none;
+    }
+    .slidebar-for-mini {
+        display: flex;
+        justify-content: center;
+    }
+    .mainadvan-bottom {
+        justify-content: center;
+    }
+    .btn-none {
+        display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) {
+    /* Стили для планшетов и настольных устройств */
+    .burger-menu {
+        display: none;
+    }
+    .navbar-wrap {
+      flex-flow: row wrap; /* Переносить кнопки на новую строку при необходимости */
+      align-items: center; /* Выровнять кнопки по центру */
+    }
+    .navbar-menu {
+      margin-bottom: 0; /* Убрать нижний отступ у меню */
+    }
+    .navbar-menu li {
+      margin: 0 10px; /* Уменьшить отступ между пунктами меню */
+    }
+    .slidebar-for-mini {
+        display: none;
+    }
+  }
+  

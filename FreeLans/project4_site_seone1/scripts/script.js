@@ -25,3 +25,11 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "flex";
     dots[slideIndex-1].className += " active-dot";
 }
+
+   
+$('.getService-menu ul').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3
+  });
+          
